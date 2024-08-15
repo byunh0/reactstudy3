@@ -7,7 +7,6 @@ export default class  extends Component {
         }else{return this.props.result}} 
    
   render(props) {
-    
     return (
       <div className={`box-style ${this.result()}`}>
         <div className="box-Detail">{this.props.name}</div>
